@@ -1,2 +1,8 @@
 #!/bin/bash
-chown -h vincent:staff _hello
+
+# Change the owner of all files and directories in the current working directory to "vincent"
+find . -exec chown vincent {} \;
+
+# Change the group owner of all files and directories in the current working directory to "staff"
+find . -exec chgrp staff {} \;
+
