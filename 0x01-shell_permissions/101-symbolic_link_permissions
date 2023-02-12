@@ -1,6 +1,2 @@
 #!/bin/bash
-# Change the owner of symbolic link "_hello" to "vincent"
-sudo chown vincent _hello
-# Change the group owner of symbolic link "_hello" to "staff"
-sudo chgrp staff _hello
-
+sudo chown vincent _hello; sudo chgrp staff _hello
