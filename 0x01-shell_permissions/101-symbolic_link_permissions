@@ -1,8 +1,6 @@
 #!/bin/bash
-
-# Change the owner of all files and directories in the current working directory to "vincent"
-find . -exec chown vincent {} \;
-
-# Change the group owner of all files and directories in the current working directory to "staff"
-find . -exec chgrp staff {} \;
+# Change the owner of symbolic link "_hello" to "vincent"
+sudo chown vincent _hello
+# Change the group owner of symbolic link "_hello" to "staff"
+sudo chgrp staff _hello
 
