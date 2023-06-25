@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ $Ben == "nokia" ]; then
+  echo "Yes!!! , You did it!!!"
+else
+  echo "Nothing changed, we still on track"
+fi
